@@ -1,0 +1,11 @@
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7,1.5rem);
+}
+.day {
+    display: flex;
+    justify-content: center;
+}
+.day:hover {
+    outline: 1px solid black;
+}
